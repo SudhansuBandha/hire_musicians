@@ -32,6 +32,7 @@ LOGIN_REDIRECT_URL = 'dashboard'
 # Application definition
 
 INSTALLED_APPS = [
+    'hiremusicians.apps.HiremusiciansConfig',
     'accounts.apps.AccountsConfig',
     'youtubers.apps.YoutubersConfig',
     'webpages.apps.WebpagesConfig',
